@@ -73,6 +73,13 @@ sudo systemctl restart apache2
 http://192.168.122.61/nagios/  
 </pre>
 
+## Client Server
+<pre>
+  apt install nagios-plugins-contrib  nagios-nrpe-server nagios-plugins -y
+</pre>
+
+
+
 
 
 
