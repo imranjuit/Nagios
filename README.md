@@ -80,6 +80,20 @@ http://192.168.122.61/nagios/
 
 
 
+# For plugin
+
+<pre>
+cd /tmp
+wget https://nagios-plugins.org/download/nagios-plugins-2.4.6.tar.gz
+tar -xzf nagios-plugins-2.4.6.tar.gz
+cd nagios-plugins-2.4.6
+./configure
+make
+sudo make install
+</pre>
+
+
+
 
 
 
