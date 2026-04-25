@@ -93,6 +93,7 @@ sudo make install
 </pre>
 
 # Nrpe
+<pre>
 wget https://github.com/NagiosEnterprises/nrpe/releases/download/nrpe-4.1.3/nrpe-4.1.3.tar.gz
 tar -xzf nrpe-4.1.3.tar.gz
 cd nrpe-4.1.3/
@@ -104,7 +105,9 @@ sudo make install-config
 sudo make install-init
 sudo systemctl enable nrpe
 sudo systemctl start nrpe
-systemctl status nrpe
+systemctl status nrpe  
+</pre>
+
 
 
 
