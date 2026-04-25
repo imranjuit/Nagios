@@ -92,6 +92,20 @@ make
 sudo make install
 </pre>
 
+# Nrpe
+wget https://github.com/NagiosEnterprises/nrpe/releases/download/nrpe-4.1.3/nrpe-4.1.3.tar.gz
+tar -xzf nrpe-4.1.3.tar.gz
+cd nrpe-4.1.3/
+./configure
+make all
+sudo make install-groups-users
+sudo make install
+sudo make install-config
+sudo make install-init
+sudo systemctl enable nrpe
+sudo systemctl start nrpe
+systemctl status nrpe
+
 
 
 
